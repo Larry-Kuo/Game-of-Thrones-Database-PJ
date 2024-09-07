@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>854</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_20" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_52" stretch="3,2">
+       <item>
+        <widget class="QWidget" name="widget_19" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>CHARACTER</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_2">
+                <item>
+                 <spacer name="horizontalSpacer_2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="chracter_insert_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>INSERT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="chracter_delete_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>DELETE</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_3">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_2" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
+                <property name="leftMargin">
+                 <number>3</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_17">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Name</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_26">
+                   <item>
+                    <widget class="QLineEdit" name="chracter_name_lineEdit">
+                     <property name="font">
+                      <font>
+                       <family>Rockwell</family>
+                       <pointsize>12</pointsize>
+                       <weight>50</weight>
+                       <italic>false</italic>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_32">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_11">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Marriage</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_23">
+                   <item>
+                    <widget class="QLineEdit" name="chracter_marriage_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_33">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_16">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Status</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_25">
+                   <item>
+                    <widget class="QLineEdit" name="chracter_status_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_34">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_15">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Actor</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_24">
+                   <item>
+                    <widget class="QLineEdit" name="chracter_actor_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_35">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_18">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>House</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_27">
+                   <item>
+                    <widget class="QLineEdit" name="chracter_house_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_2">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>PLAYER</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_11" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_17">
+                <item>
+                 <spacer name="horizontalSpacer_16">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="player_insert_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>INSERT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="player_delete_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>DELETE</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_18">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_12" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_18">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
+                <property name="leftMargin">
+                 <number>3</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_36">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Name</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_48">
+                   <item>
+                    <widget class="QLineEdit" name="player_name_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_29">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_37">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Character</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_49">
+                   <item>
+                    <widget class="QLineEdit" name="player_character_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_30">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_38">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Country</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_50">
+                   <item>
+                    <widget class="QLineEdit" name="player_country_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_31">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_39">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Gender</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_51">
+                   <item>
+                    <widget class="QLineEdit" name="player_gender_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_3">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>WAR</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_13" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_53">
+                <item>
+                 <spacer name="horizontalSpacer_19">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="war_insert_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>INSERT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="war_delete_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>DELETE</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_21">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_14" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_54">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
+                <property name="leftMargin">
+                 <number>3</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_41">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Name</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_55">
+                   <item>
+                    <widget class="QLineEdit" name="war_name_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_26">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_42">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Participants</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_56">
+                   <item>
+                    <widget class="QLineEdit" name="war_participants_lineEdit_1"/>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="war_participants_lineEdit_2"/>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="war_participants_lineEdit_3"/>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="war_participants_lineEdit_4"/>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_28">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_45">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Place</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_59">
+                   <item>
+                    <widget class="QLineEdit" name="war_place_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_4">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>HOUSE</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_15" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_60">
+                <item>
+                 <spacer name="horizontalSpacer_22">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="house_insert_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>INSERT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="house_delete_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>DELETE</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_24">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_16" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_61">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
+                <property name="leftMargin">
+                 <number>3</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_46">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Name</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_62">
+                   <item>
+                    <widget class="QLineEdit" name="house_name_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_20">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_47">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Ruler</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_63">
+                   <item>
+                    <widget class="QLineEdit" name="house_ruler_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_23">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_48">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Alliance</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_64">
+                   <item>
+                    <widget class="QLineEdit" name="house_alliance_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox_5">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>TERRITORY</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>3</number>
+             </property>
+             <property name="topMargin">
+              <number>3</number>
+             </property>
+             <property name="rightMargin">
+              <number>3</number>
+             </property>
+             <property name="bottomMargin">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QWidget" name="widget_17" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_67">
+                <item>
+                 <spacer name="horizontalSpacer_25">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="territory_insert_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>INSERT</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="territory_delete_pushButton">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>DELETE</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_27">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_18" native="true">
+               <layout class="QHBoxLayout" name="horizontalLayout_68">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
+                <property name="leftMargin">
+                 <number>3</number>
+                </property>
+                <property name="topMargin">
+                 <number>3</number>
+                </property>
+                <property name="rightMargin">
+                 <number>3</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>3</number>
+                </property>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_51">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Name</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_69">
+                   <item>
+                    <widget class="QLineEdit" name="territory_name_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_36">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_52">
+                  <property name="styleSheet">
+                   <string notr="true"> color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>Ruler</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_70">
+                   <item>
+                    <widget class="QLineEdit" name="territory_ruler_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <spacer name="horizontalSpacer_37">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                  <property name="sizeType">
+                   <enum>QSizePolicy::Preferred</enum>
+                  </property>
+                  <property name="sizeHint" stdset="0">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </spacer>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_53">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>House</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_71">
+                   <item>
+                    <widget class="QLineEdit" name="territory_house_lineEdit">
+                     <property name="styleSheet">
+                      <string notr="true">font: 12pt &quot;Rockwell&quot;; </string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QGroupBox" name="groupBox_6">
+            <property name="styleSheet">
+             <string notr="true">color:rgb(255, 255, 255);</string>
+            </property>
+            <property name="title">
+             <string>查詢工具</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <item>
+              <widget class="QComboBox" name="comboBox">
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(60, 60, 60);</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_7">
+               <property name="styleSheet">
+                <string notr="true">color:rgb(255, 255, 255);</string>
+               </property>
+               <property name="title">
+                <string>SQL</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_11" stretch="1,2,3">
+                <item>
+                 <widget class="QPushButton" name="start_sql_button">
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+font: &quot;Rockwell&quot;;
+background-color: rgb(60, 60, 60);
+
+font: bold; 
+border: 1px solid silver;
+border-radius: 5px;
+subcontrol-origin:  margin;
+padding: 2 2px 2 2px;</string>
+                  </property>
+                  <property name="text">
+                   <string>START</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_8">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>COMMAND</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout">
+                   <property name="leftMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="spacing">
+                    <number>3</number>
+                   </property>
+                   <item row="0" column="0">
+                    <widget class="QPlainTextEdit" name="sql_command_plainTextEdit">
+                     <property name="font">
+                      <font>
+                       <family>Rockwell</family>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_10">
+                  <property name="styleSheet">
+                   <string notr="true">color:rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="title">
+                   <string>OUTPUT</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_3">
+                   <property name="leftMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>3</number>
+                   </property>
+                   <property name="spacing">
+                    <number>3</number>
+                   </property>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="sql_output_label">
+                     <property name="font">
+                      <font>
+                       <family>Rockwell</family>
+                       <pointsize>14</pointsize>
+                       <weight>50</weight>
+                       <bold>false</bold>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
